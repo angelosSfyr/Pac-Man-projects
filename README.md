@@ -12,33 +12,33 @@ I have built general search algorithms that apply to Pacman scenarios.
 
 The files i edited are search.py and searchAgents.py.
 
-Vizualize Algorithms
+**Vizualize Algorithms**
 
-Q1: Finding a Fixed Food Dot using Depth First Search
+**Q1**: Finding a Fixed Food Dot using Depth First Search
 
     python pacman.py -l mediumMaze -p SearchAgent
     
-Q2: Breadth First Search
+**Q2**: Breadth First Search
 
     python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
     
-Q3: A* search
+**Q3**: A* search
 
     python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
     
-Q4: Finding all the corners
+**Q4**: Finding all the corners
 
     python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
     
-Q5: Corners Problem with Heuristic
+**Q5**: Corners Problem with Heuristic
 
     python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
     
-Q6: Eating All The Dots (!need to wait ~1 min)
+**Q6**: Eating All The Dots (!need to wait ~1 min)
 
     python pacman.py -l trickySearch -p AStarFoodSearchAgent
     
-Q7: Suboptimal Search(greedily eats the closest dot)
+**Q7**: Suboptimal Search(greedily eats the closest dot)
 
     python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
 
