@@ -6,6 +6,12 @@ The Pac-Man projects teach foundational AI concepts. The projects allow you to v
 In this project, Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently.
 I have built general search algorithms that apply to Pacman scenarios.
 
+
+The files i edited are search.py and searchAgents.py.
+
 # Project 2
 In this project, i have designed agents for the classic version of Pacman, including ghosts.
 Along the way, i implemented both minimax, expectimax search and evaluation functions.
+
+
+The files i edited are multiAgents.py and pacman.py.
