@@ -48,3 +48,22 @@ Along the way, i implemented both minimax, expectimax search and evaluation func
 
 
 The files i edited are multiAgents.py and pacman.py.
+
+**Q1**:Improve the ReflexAgent to play respectably
+    
+    python pacman.py --frameTime 0 -p ReflexAgent -k 2
+
+**Q2**:
+
+**Q3**:
+
+**Q4**:
+
+**Q5**:
+
+**Q6**:
+
+**Q7**:
+
+**Q8**:
+
