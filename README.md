@@ -12,7 +12,7 @@ The files i edited are search.py and searchAgents.py.
 Vizualize Algorithms
 
 Q1: Finding a Fixed Food Dot using Depth First Search
-command: python pacman.py -l mediumMaze -p SearchAgent
+    command: python pacman.py -l mediumMaze -p SearchAgent
 
 
 # Project 2
