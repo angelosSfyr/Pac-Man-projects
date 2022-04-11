@@ -16,7 +16,7 @@ The files i edited are search.py and searchAgents.py.
 
 **Q1**: Finding a Fixed Food Dot using Depth First Search
 
-    python pacman.py -l mediumMaze -p SearchAgent
+**    python pacman.py -l mediumMaze -p SearchAgent
     
 **Q2**: Breadth First Search
 
