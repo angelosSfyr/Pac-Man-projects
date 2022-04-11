@@ -13,7 +13,7 @@ Vizualize Algorithms
 
 Q1: Finding a Fixed Food Dot using Depth First Search
 
-    command: python pacman.py -l mediumMaze -p SearchAgent
+python pacman.py -l mediumMaze -p SearchAgent
     
 Q2: Breadth First Search
 
