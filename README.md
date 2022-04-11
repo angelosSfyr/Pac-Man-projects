@@ -13,16 +13,22 @@ Vizualize Algorithms
 
 Q1: Finding a Fixed Food Dot using Depth First Search
     command: python pacman.py -l mediumMaze -p SearchAgent
+    
 Q2: Breadth First Search
     command: python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+    
 Q3: A* search
     command: python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+    
 Q4: Finding all the corners
     command: python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+    
 Q5: Corners Problem with Heuristic
     command: python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
+    
 Q6: Eating All The Dots (!need to wait ~1 min)
     command: python pacman.py -l trickySearch -p AStarFoodSearchAgent
+    
 Q7: Suboptimal Search(greedily eats the closest dot)
     command: python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
 
