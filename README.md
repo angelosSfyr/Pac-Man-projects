@@ -51,23 +51,23 @@ The files i edited are multiAgents.py and pacman.py.
 
 **Vizualize Algorithms**
 
-**Q1**:Improve the ReflexAgent to play respectably
+**Q1**: Improve the ReflexAgent to play respectably
     
     python pacman.py --frameTime 0 -p ReflexAgent -k 2
 
-**Q2**:Minimax search
+**Q2**: Minimax search
 
     python autograder.py -q q2 --no-graphics
 
-**Q3**:Alpha-Beta Pruning
+**Q3**: Alpha-Beta Pruning
 
     python autograder.py -q q3
 
-**Q4**:Expectimax(probabilistic behavior of agents who may make suboptimal choices)
+**Q4**: Expectimax(probabilistic behavior of agents who may make suboptimal choices)
 
     python autograder.py -q q4
     
-**Q5**:Evaluation Function
+**Q5**: Evaluation Function
 
     python autograder.py -q q5
     
